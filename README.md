@@ -1,4 +1,4 @@
-# game-and-watch
+# gw-rpi-install-script.sh
 
 This script will install everything needed for flashing a 2020 Super Mario Game & Watch on a Raspberry Pi.
 All that is needed is a clean Raspberry Pi OS (previously Rasbian) install on your Raspberry Pi.
