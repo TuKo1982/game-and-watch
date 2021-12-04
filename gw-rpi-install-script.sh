@@ -175,14 +175,14 @@ fi
 # export GCC_PATH=/home/pi/opt/xpack-arm-none-eabi-gcc-10.2.1-1.1/bin/
 # export ADAPTER=rpi
 # export adapter=rpi
-# export OPENOCD=/home/pi/.local/xPacks/@xpack-dev-tools/openocd/0.11.0-1.1/.content/bin/openocd
+# export OPENOCD=/home/pi/.local/xPacks/@xpack-dev-tools/openocd/0.11.0-2.1/.content/bin/openocd
 ########################################################################################################################
 
 echo "$(tput setaf 5)$(tput bold)$(tput smul)$(tput cuf 20)9: Setting variables$(tput sgr 0)" ; echo
 export GCC_PATH=/home/pi/opt/xpack-arm-none-eabi-gcc-10.2.1-1.1/bin/
 export ADAPTER=rpi
 export adapter=rpi
-export OPENOCD=/home/pi/.local/xPacks/@xpack-dev-tools/openocd/0.11.0-1.1/.content/bin/openocd
+export OPENOCD=/home/pi/.local/xPacks/@xpack-dev-tools/openocd/0.11.0-2.1/.content/bin/openocd
 
 if [ $? -eq 0 ]
 then
@@ -201,14 +201,14 @@ fi
 # echo export GCC_PATH=/home/pi/opt/xpack-arm-none-eabi-gcc-10.2.1-1.1/bin/ >>~/.bashrc
 # echo export ADAPTER=rpi >>~/.bashrc
 # echo export adapter=rpi >>~/.bashrc
-# echo export OPENOCD=/home/pi/.local/xPacks/@xpack-dev-tools/openocd/0.11.0-1.1/.content/bin/openocd >>~/.bashrc
+# echo export OPENOCD=/home/pi/.local/xPacks/@xpack-dev-tools/openocd/0.11.0-2.1/.content/bin/openocd >>~/.bashrc
 ########################################################################################################################
 
 echo "$(tput setaf 5)$(tput bold)$(tput smul)$(tput cuf 20)10: Saving variables$(tput sgr 0)" ; echo
 echo export GCC_PATH=/home/pi/opt/xpack-arm-none-eabi-gcc-10.2.1-1.1/bin/ >>~/.bashrc
 echo export ADAPTER=rpi >>~/.bashrc
 echo export adapter=rpi >>~/.bashrc
-echo export OPENOCD=/home/pi/.local/xPacks/@xpack-dev-tools/openocd/0.11.0-1.1/.content/bin/openocd >>~/.bashrc
+echo export OPENOCD=/home/pi/.local/xPacks/@xpack-dev-tools/openocd/0.11.0-2.1/.content/bin/openocd >>~/.bashrc
 
 if [ $? -eq 0 ]
 then
